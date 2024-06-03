@@ -2,9 +2,22 @@
 Personal Camunda Workflow Engine from Camunda
 
 ## INstallation
+### First run
 ```bash
 docker pull camunda/camunda-bpm-platform:run-latest
 docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:run-latest
+```
+
+### Runs thereafter
+```bash
+docker start camunda
+OR
+docker run -d -p 8080:8080 camunda/camunda-bpm-platform:run-latest
+```
+
+### Stop the container
+```bash
+docker stop camunda
 ```
 
 ## How to run the project
