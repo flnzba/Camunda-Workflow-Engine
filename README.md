@@ -15,6 +15,10 @@ OR
 docker run -d -p 8080:8080 camunda/camunda-bpm-platform:run-latest
 ```
 
+### Login
+Username: demo
+Password: demo
+
 ### Stop the container
 ```bash
 docker stop camunda
@@ -22,4 +26,3 @@ docker stop camunda
 
 ## How to run the project
 - https://docs.camunda.org/manual/7.21/installation/docker/
-- 
